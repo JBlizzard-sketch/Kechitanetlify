@@ -52,7 +52,6 @@
     "@types/jest": "^29.5.3",
     "playwright": "^1.40.0",
     "@axe-core/playwright": "^4.2.0",
-    "@netlify/plugin-nextjs": "^7.0.0"
   },
   "engines": {
     "node": "18.x"
