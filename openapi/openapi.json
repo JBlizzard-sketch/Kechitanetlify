@@ -1,0 +1,110 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Kechita API",
+    "version": "1.0.0",
+    "description": "API spec for Kechita Capital"
+  },
+  "paths": {
+    "/api/auth/send-otp": {
+      "post": {
+        "summary": "POST /api/auth/send-otp",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/verify": {
+      "post": {
+        "summary": "POST /api/auth/verify",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/loans/create": {
+      "post": {
+        "summary": "POST /api/loans/create",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/loans/list": {
+      "post": {
+        "summary": "POST /api/loans/list",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/payments/mpesa/stk": {
+      "post": {
+        "summary": "POST /api/payments/mpesa/stk",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/payments/mpesa/callback": {
+      "post": {
+        "summary": "POST /api/payments/mpesa/callback",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ai/wrapper": {
+      "post": {
+        "summary": "POST /api/ai/wrapper",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/repayments/list": {
+      "post": {
+        "summary": "POST /api/repayments/list",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/referrals/create": {
+      "post": {
+        "summary": "POST /api/referrals/create",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/accounting/add": {
+      "post": {
+        "summary": "POST /api/accounting/add",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}

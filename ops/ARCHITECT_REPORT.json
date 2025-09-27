@@ -1,0 +1,11 @@
+{
+  "generated_at": "2025-09-27T08:19:22.282494Z",
+  "summary": "No critical missing files found, some advisories present.",
+  "findings": [],
+  "verdict": "pass",
+  "remediation": [],
+  "advisory": [
+    "Add token-usage monitoring and per-model cost caps in lib/ai client",
+    "Ensure OpenAI key is rotated and stored in secrets manager rather than env in production"
+  ]
+}

@@ -1,0 +1,23 @@
+name: Daily DB Backup
+on:
+  schedule:
+    - cron: '0 2 * * *' # daily at 02:00 UTC
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Postgres client
+        run: sudo apt-get update && sudo apt-get install -y postgresql-client
+      - name: Run backup script
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          chmod +x scripts/db_backup.sh
+          ./scripts/db_backup.sh
+      - name: Upload artifact (placeholder)
+        uses: actions/upload-artifact@v4
+        with:
+          name: kechita-db-backup
+          path: /tmp/kechita_db_*.sql.gz

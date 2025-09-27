@@ -1,0 +1,36 @@
+{
+  "phase": 20,
+  "timestamp": "2025-09-27T08:19:36.032861Z",
+  "commands_attempted": [
+    {
+      "command": "node scripts/check_slo.js",
+      "result": {
+        "ran": false,
+        "status": "node_not_available",
+        "output": null
+      }
+    },
+    {
+      "command": "npm run test",
+      "result": {
+        "ran": false,
+        "status": "npm_not_available",
+        "output": null
+      }
+    },
+    {
+      "command": "docker-compose up -d (ops/observability)",
+      "result": {
+        "ran": false,
+        "status": "docker_not_available"
+      }
+    }
+  ],
+  "env": {
+    "node": false,
+    "npm": false,
+    "docker": false,
+    "docker-compose": false,
+    "python": true
+  }
+}

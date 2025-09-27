@@ -1,0 +1,139 @@
+{
+  "checks": [
+    {
+      "path": "app/page.tsx",
+      "exists": true,
+      "size": 1302
+    },
+    {
+      "path": "app/services/page.tsx",
+      "exists": true,
+      "size": 1428
+    },
+    {
+      "path": "app/loans/page.tsx",
+      "exists": true,
+      "size": 308
+    },
+    {
+      "path": "app/industries/page.tsx",
+      "exists": true,
+      "size": 1057
+    },
+    {
+      "path": "app/about/page.tsx",
+      "exists": true,
+      "size": 526
+    },
+    {
+      "path": "app/contact/page.tsx",
+      "exists": true,
+      "size": 1017
+    },
+    {
+      "path": "app/faq/page.tsx",
+      "exists": true,
+      "size": 1215
+    },
+    {
+      "path": "app/partners/page.tsx",
+      "exists": true,
+      "size": 467
+    },
+    {
+      "path": "app/events/page.tsx",
+      "exists": true,
+      "size": 658
+    },
+    {
+      "path": "app/careers/page.tsx",
+      "exists": true,
+      "size": 700
+    },
+    {
+      "path": "app/resources/page.tsx",
+      "exists": true,
+      "size": 555
+    },
+    {
+      "path": "app/health/route.ts",
+      "exists": true,
+      "size": 186
+    },
+    {
+      "path": "components",
+      "exists": true,
+      "size": null
+    },
+    {
+      "path": "lib",
+      "exists": true,
+      "size": null
+    },
+    {
+      "path": "hooks",
+      "exists": false,
+      "size": null
+    },
+    {
+      "path": "prisma",
+      "exists": true,
+      "size": null
+    },
+    {
+      "path": "public/assets",
+      "exists": true,
+      "size": null
+    },
+    {
+      "path": "tests",
+      "exists": false,
+      "size": null
+    },
+    {
+      "path": "ops/perf_report_phase17.json",
+      "exists": false,
+      "size": null
+    },
+    {
+      "path": "ops/ARCHITECT_REPORT.json",
+      "exists": false,
+      "size": null
+    },
+    {
+      "path": ".gitignore",
+      "exists": true,
+      "size": 70
+    },
+    {
+      "path": ".env.example",
+      "exists": true,
+      "size": 361
+    },
+    {
+      "path": "babel.config.cjs",
+      "exists": true,
+      "size": 48
+    },
+    {
+      "path": "Dockerfile",
+      "exists": true,
+      "size": 528
+    },
+    {
+      "path": "render.yaml",
+      "exists": true,
+      "size": 751
+    },
+    {
+      "path": "package.json",
+      "exists": true,
+      "size": 1870
+    },
+    {
+      "path": "README.md",
+      "exists": true,
+      "size": 7138
+    }
+  ]
+}

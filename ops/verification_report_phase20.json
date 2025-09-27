@@ -1,0 +1,68 @@
+{
+  "phase": 20,
+  "generated_at": "2025-09-27T08:18:56.335155Z",
+  "files_added": [
+    "ops/phase20_manifest.json",
+    "ops/verification_report_phase20.json",
+    ".github/workflows/production_rollout.yml",
+    "infra/terraform/main.tf",
+    "infra/k8s/deployment.yaml",
+    "scripts/deploy_prod.sh",
+    "tools/architect_audit.py",
+    "components/Hero.tsx",
+    "public/assets/hero_large.jpg",
+    "public/assets/illustration_large.svg"
+  ],
+  "architect_audit_contents": "ARCHITECT_REPORT.json not found",
+  "charts_output": "generate_charts.py not found - skipping",
+  "architect_audit_run": {
+    "stdout": "ARCHITECT_REPORT.json written at /mnt/data/kechita_repo/ops/ARCHITECT_REPORT.json\n",
+    "report": {
+      "generated_at": "2025-09-27T08:19:22.282494Z",
+      "summary": "No critical missing files found, some advisories present.",
+      "findings": [],
+      "verdict": "pass",
+      "remediation": [],
+      "advisory": [
+        "Add token-usage monitoring and per-model cost caps in lib/ai client",
+        "Ensure OpenAI key is rotated and stored in secrets manager rather than env in production"
+      ]
+    }
+  },
+  "manifest_update": {
+    "phase": 20,
+    "timestamp": "2025-09-27T08:19:36.032861Z",
+    "commands_attempted": [
+      {
+        "command": "node scripts/check_slo.js",
+        "result": {
+          "ran": false,
+          "status": "node_not_available",
+          "output": null
+        }
+      },
+      {
+        "command": "npm run test",
+        "result": {
+          "ran": false,
+          "status": "npm_not_available",
+          "output": null
+        }
+      },
+      {
+        "command": "docker-compose up -d (ops/observability)",
+        "result": {
+          "ran": false,
+          "status": "docker_not_available"
+        }
+      }
+    ],
+    "env": {
+      "node": false,
+      "npm": false,
+      "docker": false,
+      "docker-compose": false,
+      "python": true
+    }
+  }
+}

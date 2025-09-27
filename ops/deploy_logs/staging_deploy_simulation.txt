@@ -1,0 +1,21 @@
+=== Simulated Staging Deploy Log - 1231 ===
+Cloning repo...
+Installing dependencies: npm ci
+Running unit tests: jest
+ - 128 tests passed, 2 skipped
+Running Playwright E2E (headless): playwright test --project=chromium
+ - 12/12 checks passed (home, onboarding, loan apply, copilot, accessibility)
+Building Next.js production bundle: next build
+ - Compiled successfully in 14.2s
+Starting web service (port 3000)
+ - Health check /api/health -> 200 OK (db: true, redis: true)
+Starting worker service
+ - Connected to Redis, listening to queues: mpesa, scoring
+Running migrations
+ - migrations applied: 001_create_tables.sql, 002_add_unique_constraint_payments.sql, 003_inventory_referrals_accounting.sql, 004_ai_usage.sql, 005_partners.sql
+Seeding demo data (reduced)
+ - inserted 200 users, 400 loans (sample)
+Smoke tests
+ - STK sandbox push simulation -> callback processed, repayment recorded
+ - Copilot scoring -> function-calling path used with OpenAI SDK mock
+Deployment status: STAGING READY

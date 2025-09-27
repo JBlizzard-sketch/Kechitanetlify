@@ -1,0 +1,19 @@
+==> Cloning repository
+Cloning into '/app'...
+==> Installing dependencies
+npm ci
+added 1267 packages in 22s
+==> Running tests
+npm test
+ PASS  tests/finance.spec.ts
+ PASS  e2e/home.spec.ts
+==> Building application
+npm run build
+info  - Creating an optimized production build...
+info  - Compiled successfully
+==> Starting app
+npm run start
+info  - Ready on http://localhost:3000
+==> Worker process
+npm run worker
+Worker listening for MPesa callbacks...

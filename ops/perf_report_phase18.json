@@ -1,0 +1,10 @@
+{
+  "requests": 500,
+  "cacheHitRate": 0.32,
+  "cacheHits": 160,
+  "cacheMisses": 340,
+  "totalTokens": 74800,
+  "rawCostCents": 150,
+  "batchedCostCents": 112,
+  "savingsCents": 38
+}

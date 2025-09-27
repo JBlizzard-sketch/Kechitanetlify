@@ -1,0 +1,11 @@
+{
+  "dashboard": {
+    "title": "Kechita Overview",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Request rate"
+      }
+    ]
+  }
+}

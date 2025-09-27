@@ -1,0 +1,22 @@
+{
+  "dashboard": {
+    "title": "Kechita Overview - Phase16",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Request rate",
+        "datasource": "Prometheus"
+      },
+      {
+        "type": "graph",
+        "title": "AI cost (daily cents)",
+        "datasource": "Prometheus"
+      },
+      {
+        "type": "stat",
+        "title": "Active workers",
+        "datasource": "Prometheus"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "phase": 21,
+  "manifest": {
+    "phase": 21,
+    "generated_at": "2025-09-27T08:37:11.241998Z",
+    "assets_count": 63,
+    "assets_file": "lib/assets.ts",
+    "removed_local_assets": []
+  },
+  "notes": "Expanded 60 pinned assets via source.unsplash.com with sig and compressed params"
+}

@@ -1,0 +1,510 @@
+{
+  "files": [
+    {
+      "path": "./next.config.js",
+      "size": 278
+    },
+    {
+      "path": "./README.md",
+      "size": 7138
+    },
+    {
+      "path": "./CONTRIBUTING.md",
+      "size": 232
+    },
+    {
+      "path": "./API_DOCS.md",
+      "size": 343
+    },
+    {
+      "path": "./ARCHITECT_REPORT_TEMPLATE.md",
+      "size": 225
+    },
+    {
+      "path": "./playwright.config.js",
+      "size": 105
+    },
+    {
+      "path": "./LAUNCH_CHECKLIST.md",
+      "size": 383
+    },
+    {
+      "path": "./QA_REPORT.md",
+      "size": 1046
+    },
+    {
+      "path": "./LAUNCH_READINESS_FILLED.md",
+      "size": 2443
+    },
+    {
+      "path": "./SECURITY_AUDIT_PLAN.md",
+      "size": 556
+    },
+    {
+      "path": "./app/metadata.ts",
+      "size": 411
+    },
+    {
+      "path": "./app/health/route.ts",
+      "size": 186
+    },
+    {
+      "path": "./app/api/auth/send-otp/route.ts",
+      "size": 818
+    },
+    {
+      "path": "./app/api/auth/verify/route.ts",
+      "size": 517
+    },
+    {
+      "path": "./app/api/loans/create/route.ts",
+      "size": 1298
+    },
+    {
+      "path": "./app/api/loans/list/route.ts",
+      "size": 240
+    },
+    {
+      "path": "./app/api/payments/mpesa/stk/route.ts",
+      "size": 1488
+    },
+    {
+      "path": "./app/api/payments/mpesa/callback/route.ts",
+      "size": 2643
+    },
+    {
+      "path": "./app/api/ai/wrapper/route.ts",
+      "size": 1248
+    },
+    {
+      "path": "./app/api/score/route.ts",
+      "size": 411
+    },
+    {
+      "path": "./app/api/score/ai/route.ts",
+      "size": 1491
+    },
+    {
+      "path": "./app/api/score/enqueue/route.ts",
+      "size": 696
+    },
+    {
+      "path": "./app/api/score/history/route.ts",
+      "size": 536
+    },
+    {
+      "path": "./app/api/repayments/list/route.ts",
+      "size": 442
+    },
+    {
+      "path": "./app/api/inventory/add/route.ts",
+      "size": 660
+    },
+    {
+      "path": "./app/api/inventory/list/route.ts",
+      "size": 394
+    },
+    {
+      "path": "./app/api/referrals/create/route.ts",
+      "size": 677
+    },
+    {
+      "path": "./app/api/referrals/list/route.ts",
+      "size": 410
+    },
+    {
+      "path": "./app/api/referrals/redeem/route.ts",
+      "size": 1894
+    },
+    {
+      "path": "./app/api/accounting/add/route.ts",
+      "size": 681
+    },
+    {
+      "path": "./app/api/accounting/list/route.ts",
+      "size": 394
+    },
+    {
+      "path": "./app/api/insights/overview/route.ts",
+      "size": 385
+    },
+    {
+      "path": "./app/api/metrics/route.ts",
+      "size": 558
+    },
+    {
+      "path": "./app/api/health/route.ts",
+      "size": 418
+    },
+    {
+      "path": "./app/api/copilot/query/route.ts",
+      "size": 1504
+    },
+    {
+      "path": "./app/api/usage/quota/route.ts",
+      "size": 628
+    },
+    {
+      "path": "./app/api/partners/list/route.ts",
+      "size": 209
+    },
+    {
+      "path": "./app/api/ops/costs/route.ts",
+      "size": 636
+    },
+    {
+      "path": "./__tests__/finance.test.js",
+      "size": 148
+    },
+    {
+      "path": "./__tests__/integration.demo.test.js",
+      "size": 432
+    },
+    {
+      "path": "./__tests__/referrals.test.js",
+      "size": 74
+    },
+    {
+      "path": "./__tests__/inventory.test.js",
+      "size": 61
+    },
+    {
+      "path": "./__tests__/scoring.test.js",
+      "size": 202
+    },
+    {
+      "path": "./__tests__/fraud.test.js",
+      "size": 185
+    },
+    {
+      "path": "./__tests__/copilot.test.js",
+      "size": 251
+    },
+    {
+      "path": "./__tests__/scoring_worker.test.js",
+      "size": 62
+    },
+    {
+      "path": "./__tests__/quota.test.js",
+      "size": 180
+    },
+    {
+      "path": "./__tests__/parser.test.js",
+      "size": 256
+    },
+    {
+      "path": "./__tests__/openai_function_test.js",
+      "size": 307
+    },
+    {
+      "path": "./__tests__/mocks/openaiMock.js",
+      "size": 471
+    },
+    {
+      "path": "./lib/db.ts",
+      "size": 1386
+    },
+    {
+      "path": "./lib/supabaseClient.ts",
+      "size": 262
+    },
+    {
+      "path": "./lib/mpesa.ts",
+      "size": 1091
+    },
+    {
+      "path": "./lib/config.ts",
+      "size": 702
+    },
+    {
+      "path": "./lib/logger.ts",
+      "size": 203
+    },
+    {
+      "path": "./lib/redis.ts",
+      "size": 257
+    },
+    {
+      "path": "./lib/sentry.ts",
+      "size": 198
+    },
+    {
+      "path": "./lib/sentry.init.ts",
+      "size": 379
+    },
+    {
+      "path": "./lib/i18nClient.ts",
+      "size": 274
+    },
+    {
+      "path": "./lib/auth.ts",
+      "size": 1364
+    },
+    {
+      "path": "./lib/openaiClient.ts",
+      "size": 537
+    },
+    {
+      "path": "./workers/worker.js",
+      "size": 463
+    },
+    {
+      "path": "./workers/mpesaWorker.js",
+      "size": 2729
+    },
+    {
+      "path": "./workers/scoringWorker.js",
+      "size": 1156
+    },
+    {
+      "path": "./services/authService.ts",
+      "size": 591
+    },
+    {
+      "path": "./services/aiService.ts",
+      "size": 2468
+    },
+    {
+      "path": "./services/loanService.ts",
+      "size": 756
+    },
+    {
+      "path": "./services/paymentService.ts",
+      "size": 2083
+    },
+    {
+      "path": "./services/inventoryService.ts",
+      "size": 445
+    },
+    {
+      "path": "./services/referralService.ts",
+      "size": 529
+    },
+    {
+      "path": "./services/accountingService.ts",
+      "size": 511
+    },
+    {
+      "path": "./services/usageService.ts",
+      "size": 430
+    },
+    {
+      "path": "./services/scoringService.ts",
+      "size": 670
+    },
+    {
+      "path": "./services/fraudService.ts",
+      "size": 240
+    },
+    {
+      "path": "./services/copilotService.ts",
+      "size": 4901
+    },
+    {
+      "path": "./services/copilotParser.ts",
+      "size": 1661
+    },
+    {
+      "path": "./services/quotaService.ts",
+      "size": 558
+    },
+    {
+      "path": "./services/partnerService.ts",
+      "size": 350
+    },
+    {
+      "path": "./services/cacheService.ts",
+      "size": 382
+    },
+    {
+      "path": "./services/tokenAccounting.ts",
+      "size": 631
+    },
+    {
+      "path": "./services/modelRouter.ts",
+      "size": 288
+    },
+    {
+      "path": "./utils/finance.ts",
+      "size": 159
+    },
+    {
+      "path": "./utils/rateLimiter.ts",
+      "size": 691
+    },
+    {
+      "path": "./scripts/demo_end_to_end.js",
+      "size": 2039
+    },
+    {
+      "path": "./scripts/generate_sitemap.js",
+      "size": 674
+    },
+    {
+      "path": "./scripts/build_blog.js",
+      "size": 686
+    },
+    {
+      "path": "./scripts/batch_copilot.js",
+      "size": 477
+    },
+    {
+      "path": "./scripts/perf_test_simulate.js",
+      "size": 1174
+    },
+    {
+      "path": "./e2e/home.spec.ts",
+      "size": 177
+    },
+    {
+      "path": "./e2e/accessibility.spec.ts",
+      "size": 329
+    },
+    {
+      "path": "./e2e/loan_flow.spec.ts",
+      "size": 587
+    },
+    {
+      "path": "./ops/monitoring.md",
+      "size": 490
+    },
+    {
+      "path": "./ops/incident_playbook.md",
+      "size": 434
+    },
+    {
+      "path": "./ops/runbooks.md",
+      "size": 462
+    },
+    {
+      "path": "./ops/ops_oncall.md",
+      "size": 220
+    },
+    {
+      "path": "./ops/runbooks_phase14.md",
+      "size": 516
+    },
+    {
+      "path": "./ops/ai_cost_optimizations.md",
+      "size": 459
+    },
+    {
+      "path": "./ops/scaling_checklist.md",
+      "size": 286
+    },
+    {
+      "path": "./ops/pentest_plan.md",
+      "size": 250
+    },
+    {
+      "path": "./ops/compliance_kyc_aml.md",
+      "size": 309
+    },
+    {
+      "path": "./ops/autoscaling/render_autoscale.md",
+      "size": 280
+    },
+    {
+      "path": "./marketing/landing_copy.md",
+      "size": 417
+    },
+    {
+      "path": "./marketing/press_release.md",
+      "size": 525
+    },
+    {
+      "path": "./marketing/brand_assets/brand_guidelines.md",
+      "size": 276
+    },
+    {
+      "path": "./marketing/investor/one_pager.md",
+      "size": 435
+    },
+    {
+      "path": "./marketing/investor/slides.md",
+      "size": 437
+    },
+    {
+      "path": "./marketing/investor/demo_script.md",
+      "size": 376
+    },
+    {
+      "path": "./marketing/investor/slide_deck.md",
+      "size": 918
+    },
+    {
+      "path": "./marketing/investor/pitch_2min.md",
+      "size": 724
+    },
+    {
+      "path": "./content/blog/post-01.md",
+      "size": 1374
+    },
+    {
+      "path": "./content/blog/post-02.md",
+      "size": 1374
+    },
+    {
+      "path": "./content/blog/post-03.md",
+      "size": 1374
+    },
+    {
+      "path": "./content/blog/post-04.md",
+      "size": 1374
+    },
+    {
+      "path": "./content/blog/post-05.md",
+      "size": 1374
+    },
+    {
+      "path": "./content/blog/post-06.md",
+      "size": 1374
+    },
+    {
+      "path": "./content/blog/post-07.md",
+      "size": 1374
+    },
+    {
+      "path": "./content/blog/post-08.md",
+      "size": 1374
+    },
+    {
+      "path": "./content/blog/post-09.md",
+      "size": 1374
+    },
+    {
+      "path": "./content/blog/post-10.md",
+      "size": 1376
+    },
+    {
+      "path": "./openapi/client.js",
+      "size": 6105
+    },
+    {
+      "path": "./sdk/kechita-sdk.js",
+      "size": 9825
+    },
+    {
+      "path": "./docs/architecture.md",
+      "size": 705
+    },
+    {
+      "path": "./docs/caching_strategy.md",
+      "size": 253
+    },
+    {
+      "path": "./tools/architect_audit.py",
+      "size": 677
+    },
+    {
+      "path": "./handoff/hand_off.md",
+      "size": 1616
+    }
+  ],
+  "checks": [
+    {
+      "name": "no-secrets-committed",
+      "ok": true
+    }
+  ]
+}

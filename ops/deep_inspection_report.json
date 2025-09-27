@@ -1,0 +1,95 @@
+{
+  "scanned_at": "2025-09-27T08:11:56.110865",
+  "root": "/mnt/data/kechita_repo",
+  "checks": {
+    "env_example_keys_found": {
+      "required": [
+        "OPENAI_API_KEY",
+        "GROQ_API_KEY",
+        "HUGGINGFACE_API_KEY",
+        "DATABASE_URL",
+        "NEXTAUTH_URL",
+        "NEXTAUTH_SECRET",
+        "GOOGLE_CLIENT_ID",
+        "GOOGLE_CLIENT_SECRET"
+      ],
+      "found": [
+        "OPENAI_API_KEY",
+        "DATABASE_URL"
+      ],
+      "missing": [
+        "GROQ_API_KEY",
+        "HUGGINGFACE_API_KEY",
+        "NEXTAUTH_URL",
+        "NEXTAUTH_SECRET",
+        "GOOGLE_CLIENT_ID",
+        "GOOGLE_CLIENT_SECRET"
+      ]
+    },
+    "gitignore": {
+      "node_modules": true,
+      ".next": true,
+      ".env.local": true
+    },
+    "seo": {
+      "app/page.tsx": {
+        "exists": true,
+        "has_metadata_export": false,
+        "has_title_in_jsx": false,
+        "mentions_openGraph": false,
+        "mentions_description": false
+      },
+      "app/services/page.tsx": {
+        "exists": true,
+        "has_metadata_export": false,
+        "has_title_in_jsx": false,
+        "mentions_openGraph": false,
+        "mentions_description": false
+      },
+      "app/loans/page.tsx": {
+        "exists": true,
+        "has_metadata_export": false,
+        "has_title_in_jsx": false,
+        "mentions_openGraph": false,
+        "mentions_description": false
+      },
+      "app/about/page.tsx": {
+        "exists": true,
+        "has_metadata_export": false,
+        "has_title_in_jsx": false,
+        "mentions_openGraph": false,
+        "mentions_description": false
+      },
+      "app/contact/page.tsx": {
+        "exists": true,
+        "has_metadata_export": false,
+        "has_title_in_jsx": false,
+        "mentions_openGraph": false,
+        "mentions_description": false
+      },
+      "app/faq/page.tsx": {
+        "exists": true,
+        "has_metadata_export": false,
+        "has_title_in_jsx": false,
+        "mentions_openGraph": false,
+        "mentions_description": false
+      }
+    },
+    "lib_ai_files": [
+      "lib/openaiClient.ts"
+    ],
+    "prisma_schema_exists": true,
+    "prisma_schema_size": 482,
+    "ops/perf_report_phase17.json": {
+      "exists": false,
+      "size": null
+    },
+    "ops/ARCHITECT_REPORT.json": {
+      "exists": false,
+      "size": null
+    },
+    "large_files_over_1mb": [],
+    "zip_created": "/mnt/data/kechita_repo_full.zip",
+    "zip_size_bytes": 2250800
+  }
+}
